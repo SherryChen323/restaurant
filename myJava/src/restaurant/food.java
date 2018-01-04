@@ -18,7 +18,7 @@ public class food extends JFrame implements ActionListener{
    public food(){
       this.addWindowListener(new WindowAdapter(){
 	  public void windowClosing(WindowEvent e) {System.exit(0);}});
-	  
+	  System.out.println("test");
 	  btn1.addActionListener(this);     // 把事件傾聽者frm向btn1註冊
       btn2.addActionListener(this);     // 把事件傾聽者frm向btn2註冊
      
